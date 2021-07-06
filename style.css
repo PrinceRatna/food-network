@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+}
+
+
+.tripple-bar div{
+    background-color:black ;
+    margin:5px 0;
+    padding:0;
+    height:4px;
+    border-radius: 50px;    
+}
+.tripple-bar{
+    width: 35px;
+    display: block;
+    margin: 7px 7px 2px 5px;
+}
+.tripple-bar:hover div{
+  background-color:white;
+}
+#image{
+    height: 45px;
+    width: 65px;
+    position: relative;
+}
+strong{
+    visibility: hidden;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+.tripple-bar-image{
+    display:flex;
+
+
+}
+.text-visible:hover strong{
+    font-size:10px ;
+    visibility: visible;
+
+}
+.head-navbar{
+    display: flex;
+    height:45px;
+    background-color: rgb(31, 208, 214);
+    
+}
+.navbar{
+background-color: #40868b;
+text-align: center;
+margin-top:0;
+height: 35px;
+padding-top: 10px;
+
+}
+.navbar a{
+    color:snow;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding:1px 2px;
+    cursor: pointer;
+}
+.dropdown-container{
+    display:inline;
+    position: relative;
+    margin: 65px;
+    
+}
+
+.dropdown-content{
+    position: absolute;
+    top:15px;
+    right:0;
+    background: color #4cc248;
+    text-align:center;
+    display:none;
+}
+.dropdown-content a{
+    display:block;
+    background-color: salmon;
+}
+    
+.dropdown-content a:hover{
+    background-color: rgb(8, 199, 65);
+   
+    
+}
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+    
+.container{
+    display: flex; 
+    background-image: url("Frame 57.jpg");
+    background-position:left;
+    background-repeat:no-repeat;
+    
+    overflow: auto;
+    
+}
+h1{
+
+    font-size:30px ;
+    font-family: 'Poppins', sans-serif; 
+
+}
+span{
+    font-size: 40px;
+    color: yellowgreen;
+}
+.content{
+    padding-left: 10px;
+    width: 50%;
+
+}
+.content-img{
+    width: 50%;
+    
+}
+.content-child-img {
+    width: 100%;
+   
+}
+ p{
+     padding: 10px;
+ }
+ .link-button{
+
+    text-decoration:none;
+    padding: 5px;
+    border-radius: 7px;;
+    background-image: linear-gradient(rgb(236, 253, 2),tomato);
+}
+
+.link-button:hover{
+    color:white;
+}
+
+
+.card {
+    border-left:5px solid ;
+    box-sizing: border-box;
+    border-image: linear-gradient(yellow,tomato);
+    border-image-slice: 1;
+     border-radius: 7px;
+    margin:10px;
+    padding: 5px;
+    box-shadow:2px 2px 20px black ;
+}
+.card span{
+    color:rgb(13, 82, 233) ;
+}
+
+.card:hover{
+
+    box-shadow:2px 2px 20px rgb(36, 240, 10) ;
+}
+.card img{
+    width: 100%;
+}
+
+footer{
+    background-image:linear-gradient(rgb(152, 205, 214) ,rgb(151, 23, 23))
+}
+footer p{
+    color:seashell ;
+    font-size: 1.5rem;
+}
+
+
+footer p:hover{
+    color:rgb(14, 219, 14);
+}
